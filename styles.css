@@ -1,8 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	background-color: navy;
+	color: white;
+
+}
+
+.header ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 10px;
+}
+
+.header li{
+	padding: 10px 15px;
+}
 .container {
 	max-width: 1200px;
 	margin: auto;
-	background-color: red;
-}
+	padding: 20px;
+	background-color: bisque;
+	}
+
+	.personal-list{
+		padding: 20px;
+	}
 
 .btn-list {
 	display: flex;
