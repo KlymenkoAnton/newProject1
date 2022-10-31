@@ -55,3 +55,20 @@
 	border: 2px solid navy;
 	color: #fff;
 }
+
+.footer{
+	background-color: rgb(152, 152, 155);
+	color: white;
+
+}
+
+.footer ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 10px;
+}
+
+.footer li{
+	padding: 10px 15px;
+}
