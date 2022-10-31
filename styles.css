@@ -1,0 +1,30 @@
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.btn-list {
+	display: flex;
+	gap: 20px;
+}
+
+.btn-list__item {
+	background-color: #ccc;
+	padding: 10px 20px;
+	border: 2px solid #ccc;
+	color: navy;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.btn-list__item:hover {
+	background-color: transparent;
+	border: 2px solid navy;
+	color: navy;
+}
+
+.btn-list__item--active {
+	background-color: navy;
+	border: 2px solid navy;
+	color: #fff;
+}
